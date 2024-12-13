@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editEvent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E7DB"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Edit Clean-up Event"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/eventNameEdt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="EVENT NAME" />
+
+    <EditText
+        android:id="@+id/locationEdt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="LOCATION" />
+
+    <EditText
+        android:id="@+id/dateEdt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="DATE" />
+
+    <EditText
+        android:id="@+id/timeEdt"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="TIME" />
+
+    <EditText
+        android:id="@+id/descriptionEdt"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:gravity="top"
+        android:hint="DESCRIPTION"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+
+    <Button
+        android:id="@+id/updateEventBtn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_button"
+        android:text="Update Event"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/endEventBtn"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_button_red"
+        android:text="End Event"
+
+        android:textColor="#FFFFFF" />
+</LinearLayout>

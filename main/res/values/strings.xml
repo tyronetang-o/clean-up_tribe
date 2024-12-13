@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Clean-Up Tribe</string>
+
+    <string-array name="payment_instruments">
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+    </string-array>
+
+    <string-array name="card_types">
+        <item>Visa</item>
+        <item>MasterCard</item>
+    </string-array>
+
+</resources>

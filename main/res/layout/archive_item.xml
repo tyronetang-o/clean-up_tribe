@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/event_bg">
+
+    <TextView
+        android:id="@+id/archiveEventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Test"
+        android:textSize="18sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/archiveEventLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center"
+        android:text="Test"
+        android:textColor="#666" />
+
+    <TextView
+        android:id="@+id/archiveEventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center"
+        android:text="Test"
+        android:textColor="#666" />
+
+    <TextView
+        android:id="@+id/archiveEventTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Test"
+
+        android:textColor="#444" />
+</LinearLayout>

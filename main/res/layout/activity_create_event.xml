@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="#F1E7DB">
+
+<!--admin only-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Create an event"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/eventNameEdt"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="EVENT NAME"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/locationEdt"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="LOCATION"
+            android:inputType="text"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/dateEdt"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:clickable="true"
+            android:focusable="false"
+            android:hint="DATE"
+            android:inputType="none"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/timeEdt"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:clickable="true"
+            android:focusable="false"
+            android:hint="TIME"
+            android:inputType="none"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/descriptionEdt"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:gravity="top"
+            android:hint="DESCRIPTION"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:scrollbars="vertical"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/createEventBtn"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="Create event"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/gotoeventbtn"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#696863"
+            android:text="Event List"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/eventarchivebtn"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#696863"
+            android:text="Event Archive"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/donationHistoryBtn"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#696863"
+            android:text="Donation History"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/joinhistorybtn"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#696863"
+            android:text="Join History"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#696863"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</ScrollView>

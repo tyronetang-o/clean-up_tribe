@@ -1,0 +1,124 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E7DB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Clean-up event details"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/eventNameTxtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Event Name"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dateTxtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="MM-DD-YYYY"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/timeTxtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="00:00 AM"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/descriptionTxtv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:lines="5"
+            android:padding="8dp"
+            android:scrollbars="vertical"
+            android:text="Description"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/eventDetailsNameEdt"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:ems="10"
+            android:hint="NAME"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/eventDetailEmailEdt"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_edit_text"
+            android:ems="10"
+            android:hint="EMAIL"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/eventDetailContactEdt"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_edit_text"
+            android:ems="10"
+            android:hint="CONTACT NUMBER"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Organized by Clean-up Tribe"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nonprofit organization"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/joinEventBtn"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_button"
+            android:padding="16dp"
+            android:text="JOIN EVENT"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
